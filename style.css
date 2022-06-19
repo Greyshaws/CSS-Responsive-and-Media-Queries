@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    background: url(images/bg-hero-desktop.svg);
+    background-color: #edfbfe;
+    height: 700px;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 18%;
+}
+
+.try {
+    position: relative;
+    left: 820px;
+    bottom: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 2px 19px 0px rgba(0, 0, 0, 0.19);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.left1 {
+    position: relative;
+    top: 165px;
+    padding-left: 50px;
+}
+
+.build {
+    font-size: 40px;
+    color: hsl(179, 100%, 13%);
+    font-family: 'Rubik', sans-serif;
+}
+
+.huddle {
+    padding-top: 30px;
+    font-size: 18px;
+    color: hsl(179, 100%, 13%);
+}
+
+.get {
+    position: relative;
+    top: 30px;
+    border: none;
+    background-color: #fe52c0;
+    color: #edfbfe;
+    border-radius: 50px;
+    width: 220px;
+    height: 43px;
+    animation: wiggle 2s linear infinite;
+    transition: all 3.5s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes wiggle {
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+    15% {
+        transform: rotateZ(-15deg);
+    }
+    20% {
+        transform: rotateZ(10deg);
+    }
+    25% {
+        transform: rotateZ(-10deg);
+    }
+    30% {
+        transform: rotateZ(6deg);
+    }
+    35% {
+        transform: rotateZ(-4deg);
+    }
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+.right1 {
+    text-align: right;
+    padding-bottom: 150px;
+    right: 50px;
+}
+
+.mockups {
+    width: 600px;
+    height: 470px;
+    position: relative;
+    bottom: 200px;
+    right: 70px;
+    animation-duration: 6s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 600px;
+    }
+    to {
+        margin-left: 0%;
+        width: 600px;
+    }
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.646);
+    animation-name: bounce;
+    animation-duration: 7s;
+}
+
+@keyframes bounce {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+    to {
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+
+.grow {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 2px rgba(133, 120, 120, 0.19);
+    width: 85%;
+    height: 380px;
+    position: relative;
+    left: 95px;
+    top: 100px;
+    border-radius: 10px;
+}
+
+.grow-together {
+    width: 350px;
+    height: 280px;
+    position: relative;
+    left: 670px;
+    bottom: 60px;
+}
+
+.left2 {
+    position: relative;
+    top: 125px;
+    left: 110px;
+}
+
+.gt {
+    font-size: 28px;
+    color: hsl(179, 100%, 13%);
+}
+
+.generate {
+    position: relative;
+    top: 15px;
+    color: hsl(179, 100%, 13%);
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.flowing {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 2px rgba(133, 120, 120, 0.19);
+    width: 85%;
+    height: 380px;
+    position: relative;
+    left: 95px;
+    top: 135px;
+    border-radius: 10px;
+}
+
+.flowing-conversation {
+    width: 380px;
+    height: 280px;
+    position: relative;
+    top: 50px;
+    left: 110px;
+}
+
+.right3 {
+    position: relative;
+    bottom: 125px;
+    left: 650px;
+}
+
+.fc {
+    position: relative;
+    right: 60px;
+    font-size: 28px;
+    color: hsl(179, 100%, 13%);
+}
+
+.you {
+    position: relative;
+    top: 15px;
+    right: 60px;
+    color: hsl(179, 100%, 13%);
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.users {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 2px rgba(133, 120, 120, 0.19);
+    width: 85%;
+    height: 380px;
+    position: relative;
+    left: 95px;
+    top: 170px;
+    border-radius: 10px;
+}
+
+.your-users {
+    width: 350px;
+    height: 280px;
+    position: relative;
+    left: 670px;
+    bottom: 25px;
+}
+
+.left4 {
+    position: relative;
+    top: 140px;
+    left: 110px;
+}
+
+.your {
+    font-size: 28px;
+    color: hsl(179, 100%, 13%);
+}
+
+.takes {
+    position: relative;
+    top: 15px;
+    color: hsl(179, 100%, 13%);
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.ready {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 2px rgba(133, 120, 120, 0.19);
+    width: 45%;
+    height: 190px;
+    position: relative;
+    top: 320px;
+    left: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ready-to {
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    color: hsl(179, 100%, 13%)
+}
+
+.get-started {
+    position: relative;
+    top: 80px;
+    border: none;
+    background-color: #fe52c0;
+    color: #edfbfe;
+    border-radius: 50px;
+    width: 240px;
+    height: 50px;
+    font-weight: bold;
+    transition: all 3.5s ease-in-out;
+    animation: wiggle 2s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes wiggle {
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+    15% {
+        transform: rotateZ(-15deg);
+    }
+    20% {
+        transform: rotateZ(10deg);
+    }
+    25% {
+        transform: rotateZ(-10deg);
+    }
+    30% {
+        transform: rotateZ(6deg);
+    }
+    35% {
+        transform: rotateZ(-4deg);
+    }
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+footer {
+    background-color: hsl(179, 100%, 13%);
+    width: 100%;
+    height: 380px;
+    margin-top: 250px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.footer-logo {
+    position: relative;
+    top: 125px;
+    left: 80px;
+    width: 16%;
+}
+
+.first {
+    position: relative;
+    top: 135px;
+    left: 120px;
+    font-size: 13px;
+}
+
+.location-img {
+    position: relative;
+    right: 30px;
+    top: 23px;
+    width: 10px;
+    height: 15px;
+}
+
+.phone-img {
+    position: relative;
+    right: 30px;
+    width: 15px;
+    height: 15px;
+}
+
+.email-img {
+    position: relative;
+    right: 30px;
+    bottom: 18px;
+    width: 15px;
+    height: 15px;
+}
+
+.phone {
+    position: relative;
+    top: 20px;
+}
+
+.email {
+    position: relative;
+    top: 40px;
+}
+
+.second {
+    position: relative;
+    left: 550px;
+    top: 15px;
+    font-size: 13px;
+}
+
+.what {
+    position: relative;
+    top: 15px;
+}
+
+.faq {
+    position: relative;
+    top: 30px;
+}
+
+.third {
+    position: relative;
+    left: 730px;
+    top: -37px;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.contact {
+    position: relative;
+    top: 30px;
+}
+
+.blog {
+    position: relative;
+    top: 15px;
+}
+
+.fourth {
+    position: relative;
+    left: 910px;
+    bottom: 90px;
+}
+
+#twitter {
+    position: relative;
+    left: 15px;
+}
+
+#instagram {
+    position: relative;
+    left: 30px;
+}
+
+.fifth {
+    text-align: right;
+    padding-right: 80px;
+    position: relative;
+    bottom: -35px;
+    font-size: 12px;
+}
+
+@media(max-width: 375px) {
+    header {
+        flex-direction: column;
+        width: 50%;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .grow {
+        flex-direction: column-reverse;
+    }
+    .flowing {
+        flex-direction: column;
+    }
+    .users {
+        flex-direction: column-reverse;
+    }
+}
