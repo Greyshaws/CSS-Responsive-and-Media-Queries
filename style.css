@@ -435,10 +435,175 @@ a {
     font-size: 12px;
 }
 
-@media(max-width: 375px) {
-    header {
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 30%;
+    }
+    .try {
+        position: relative;
+        left: 180px;
+        top: -7px;
+    }
+    .left1 {
+        position: relative;
+        top: 30px;
+    }
+    .build {
+        font-size: 30px;
+    }
+    .huddle {
+        font-size: 15px;
+    }
+    .mockups {
+        position: relative;
+        top: 90px;
+        width: 450px;
+        height: 327px;
+        position: relative;
+        bottom: 200px;
+        right: 20px;
+        animation-duration: 6s;
+        animation-name: slidein;
+    }
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 450px;
+        }
+        to {
+            margin-left: 0%;
+            width: 450px;
+        }
+    }
+    .grow {
+        width: 90%;
+        position: relative;
+        left: 25px;
+    }
+    .left2 {
+        position: relative;
+        top: 20px;
+    }
+    .generate {
+        position: relative;
+        right: 80px;
+        width: 400px;
+        font-size: 15px;
+    }
+    .right2 {
+        position: relative;
+        top: 120px;
+        right: 600px;
+    }
+    .grow-together {
+        width: 300px;
+        height: 220px;
+    }
+    .flowing {
+        width: 90%;
+        position: relative;
+        left: 25px;
+    }
+    .right3 {
+        position: relative;
+        bottom: 200px;
+        left: 100px;
+    }
+    .fc {
+        text-align: center;
+        position: relative;
+        right: 90px;
+    }
+    .you {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 15px;
+        width: 400px;
+        right: 80px;
+    }
+    .left3 {
+        position: relative;
+        top: 110px;
+        right: 50px;
+    }
+    .flowing-conversation {
+        width: 300px;
+        height: 220px;
+    }
+    .users {
+        width: 90%;
+        position: relative;
+        left: 25px;
+    }
+    .left4 {
+        position: relative;
+        top: 20px;
+    }
+    .takes {
+        position: relative;
+        right: 80px;
+        width: 400px;
+        font-size: 15px;
+    }
+    .right4 {
+        position: relative;
+        top: 80px;
+        right: 600px;
+    }
+    .your-users {
+        width: 300px;
+        height: 220px;
+    }
+    .ready {
+        width: 90%;
+        position: relative;
+        left: 23px;
+    }
+    .footer-logo {
+        position: relative;
+        left: 15px;
+        width: 120px;
+    }
+    .first {
+        position: relative;
+        left: 45px;
+        font-size: 10px;
+    }
+    .text-lorem {
+        width: 100px;
+    }
+    .second {
+        position: relative;
+        left: 250px;
+        top: -10px;
+        font-size: 10px;
+    }
+    .third {
+        position: relative;
+        left: 400px;
+        top: -48px;
+        font-size: 10px;
+    }
+    .fourth {
+        position: relative;
+        left: 300px;
+        top: 30px;
+    }
+    .fifth {
+        position: relative;
+        top: 50px;
+        left: 50px;
+        font-size: 10px;
+    }
+}
+
+
+/*header {
         flex-direction: column;
         width: 50%;
+    }
+    .logo {
+        width: 20%;
     }
     footer {
         flex-direction: column;
@@ -451,5 +616,9 @@ a {
     }
     .users {
         flex-direction: column-reverse;
-    }
+    }*/
+
+
+}
+
 }
